@@ -90,6 +90,15 @@ npm install
 npm start
 📍 Frontend runs at: http://localhost:3000
 
+## 🔐 Login Page
+
+![Login](public/screenshots/login.png)
+
+## 📊 Dashboard
+
+![Dashboard](public/screenshots/dashboard.png)
+
+
 🔐 Authentication Flow
 🔒 Users must log in to access their dashboard
 🛡️ JWT tokens are stored in localStorage and used for API access
