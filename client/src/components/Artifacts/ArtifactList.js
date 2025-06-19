@@ -40,7 +40,8 @@ const ArtifactList = () => {
 
       <ul style={styles.list}>
         {artifacts.length === 0 ? (
-          <p>No artifacts found.</p>
+         <p style={{ color: 'white' }}>No artifacts found.</p>
+
         ) : (
           artifacts.map((a) => (
             <li key={a._id} style={styles.item}>
